@@ -386,11 +386,12 @@ docs(schema): add vital_signs entity relationships
 
 ### Phase 1 — Foundation
 
-- [ ] Project structure setup (monorepo)
-- [ ] Database schema design and migrations
-- [ ] JWT authentication system
-- [ ] Role-based authorization (RBAC)
-- [ ] ICD-10 dataset seeding
+- [x] Project structure setup (monorepo)
+- [x] Database schema design and migrations
+- [x] JWT authentication system
+- [x] Role-based authorization (RBAC)
+- [x] ICD-10 dataset seeding & search
+- [x] Swagger OpenAPI interactive documentation (`/docs`)
 
 ### Phase 2 — Clinic Operations
 
