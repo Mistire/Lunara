@@ -9,6 +9,7 @@ import { VitalSignsModule } from './modules/vital-signs/vital-signs.module';
 import { SchedulesModule } from './modules/schedules/schedules.module';
 import { AppointmentsModule } from './modules/appointments/appointments.module';
 import { QueueModule } from './modules/queue/queue.module';
+import { ConsultationsModule } from './modules/consultations/consultations.module';
 
 @Module({
   imports: [
@@ -25,6 +26,7 @@ import { QueueModule } from './modules/queue/queue.module';
     SchedulesModule,
     AppointmentsModule,
     QueueModule,
+    ConsultationsModule,
   ],
 })
 export class AppModule {}
